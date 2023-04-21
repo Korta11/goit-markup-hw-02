@@ -154,3 +154,7 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
+/* page portfolio */
+.button.list {
+  list-style: none;
+}
