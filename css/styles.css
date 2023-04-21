@@ -91,7 +91,7 @@ ul {
 .our-team {
   background-color: #f4f4fd;
 }
-.our-team.list {
+.team.list {
   background-color: #ffffff;
 }
 /* FOOTER */
@@ -104,14 +104,14 @@ ul {
 /* BUTTON */
 .button.primary {
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
   color: #ffffff;
   background-color: #4d5ae5;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  cursor: pointer;
   font-size: 16px;
   line-height: 24px;
+  cursor: pointer;
 }
 .button.primary:hover {
   background-color: var(--acent-focus-color);
@@ -122,13 +122,21 @@ ul {
 
 .button.secondary {
   color: #4d5ae5;
-  background-color: F4F4FD;
-  size: 16px;
+  background-color: #f4f4fd;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-size: 16px;
   line-height: 24px;
+  cursor: pointer;
 }
-.button.secondary:hover,
+.button.secondary:hover {
+  color: #ffffff;
+  background-color: var(--acent-focus-color);
+}
 .button.secondary:focus {
-  background-color: var(--button-focus-color);
+  color: #ffffff;
+  background-color: var(--acent-focus-color);
 }
 
 /* TEXT */
@@ -154,7 +162,13 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.invisible {
+  content-visibility: hidden;
+}
 /* page portfolio */
 .button.list {
   list-style: none;
+}
+.navigator.link {
+  text-decoration: none;
 }
