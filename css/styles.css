@@ -1,0 +1,46 @@
+body {
+  background-color: #ffffff;
+}
+ul {
+  list-style: none;
+}
+
+/* LOGO-STUDIO */
+.Logo {
+  color: #4d5ae5;
+}
+.logo-studio {
+  color: #2e2f42;
+}
+/* Site nav */
+.site-nav .link {
+  color: #2e2f42;
+}
+.auth-nav a {
+  color: #434455;
+}
+/* Hero */
+.hero {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 60px;
+}
+.hero-titel {
+  color: #ffffff;
+}
+.button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+/* TEXT */
+.titel-text.primary {
+  color: #2e2f42;
+}
+.titel-text {
+  color: #2e2f42;
+}
+.text {
+  color: #434455;
+}
+
+/* Page prtfolio BUTTON */
