@@ -8,10 +8,9 @@
 }
 body {
   background-color: #ffffff;
+  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   color: var(--primary-text-color);
-  size: 16px;
-  line-height: 24px;
   text-decoration: none;
 }
 ul {
@@ -54,6 +53,10 @@ ul {
 .site-nav .link,
 .auth-nav .link {
   font-style: normal;
+  list-style: none;
+}
+.auth-nav.list {
+  font-style: normal;
 }
 .auth-nav .link {
   color: var(--acent-auth-color);
@@ -77,13 +80,35 @@ ul {
 .hero-titel {
   color: #ffffff;
   size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
   line-height: 60px;
+}
+/* Our Team */
+.our-team {
+  background-color: #f4f4fd;
+}
+.our-team.list {
+  background-color: #ffffff;
+}
+/* FOOTER */
+.footer {
+  background-color: #2e2f42;
+}
+.logo-studio.footer {
+  color: #f4f4fd;
 }
 /* BUTTON */
 .button.primary {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   color: #ffffff;
   background-color: #4d5ae5;
-  size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  font-size: 16px;
   line-height: 24px;
 }
 .button.primary:hover,
@@ -105,9 +130,23 @@ ul {
 /* TEXT */
 .skills-title {
   color: var(--title-text-color);
-  size: 36px;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .section-title {
   color: var(--title-text-color);
-  size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 20px;
+  list-style: none;
+}
+.section-p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
