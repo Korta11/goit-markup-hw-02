@@ -1,1 +1,2 @@
-# goit-markup-hw-01
+index.html - це є головна сторінка
+portfolio.html - це є друга сторінка дз
