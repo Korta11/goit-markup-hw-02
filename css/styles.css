@@ -185,3 +185,6 @@ ul {
 .bui-site.link {
   text-decoration: none;
 }
+.app.list .link {
+  text-decoration: none;
+}
