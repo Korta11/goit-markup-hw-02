@@ -173,3 +173,15 @@ ul {
 .navigator.link {
   text-decoration: none;
 }
+.servis.list {
+  list-style: none;
+}
+.servis link {
+  text-decoration: none;
+}
+.bui-site.list {
+  list-style: none;
+}
+.bui-site.link {
+  text-decoration: none;
+}
