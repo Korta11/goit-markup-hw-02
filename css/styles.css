@@ -114,13 +114,14 @@ ul {
   cursor: pointer;
 }
 .button.primary:hover {
-  background-color: var(--acent-focus-color);
+  background-color: #404bbf;
 }
 .button.primary:focus {
   background-color: var(--acent-focus-color);
 }
 
 .button.secondary {
+  font-family: "Roboto", sans-serif;
   color: #4d5ae5;
   background-color: #f4f4fd;
   font-weight: 500;
@@ -132,11 +133,11 @@ ul {
 }
 .button.secondary:hover {
   color: #ffffff;
-  background-color: var(--acent-focus-color);
+  background-color: #404bbf;
 }
 .button.secondary:focus {
   color: #ffffff;
-  background-color: var(--acent-focus-color);
+  background-color: #404bbf;
 }
 
 /* TEXT */
@@ -149,7 +150,7 @@ ul {
   text-transform: capitalize;
 }
 .section-title {
-  color: var(--title-text-color);
+  color: #2e2f42;
   line-height: 1.2;
   letter-spacing: 0.02em;
   font-weight: 500;
