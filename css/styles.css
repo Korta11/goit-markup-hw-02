@@ -87,7 +87,7 @@ ul {
   line-height: 1.07;
 }
 
-.button.btn-primary {
+.btn-primary {
   color: #ffffff;
   background-color: #4d5ae5;
 }
@@ -119,12 +119,14 @@ ul {
   font-size: 16px;
   line-height: 24px;
   cursor: pointer;
+}
+
+.btn-secondary {
   color: #4d5ae5;
   background-color: #f4f4fd;
 }
-
-.butto:hover,
-.button:focus {
+.btn-secondary:hover,
+.btn-secondary:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
