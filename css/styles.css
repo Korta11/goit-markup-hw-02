@@ -4,7 +4,6 @@
   --accent-site-color: #2e2f42;
   --acent-focus-color: #404bbf;
   --acent-auth-color: #434455;
-  --button-focus-color: #e7e9fc;
 }
 body {
   background-color: #ffffff;
@@ -87,6 +86,24 @@ ul {
   letter-spacing: 0.02em;
   line-height: 1.07;
 }
+.button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+}
+.btn-primary {
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #404bbf;
+}
 /* Our Team */
 .our-team {
   background-color: #f4f4fd;
@@ -102,22 +119,6 @@ ul {
   color: #f4f4fd;
 }
 /* BUTTON */
-.button-primary {
-  font-family: "Roboto", sans-serif;
-  color: #ffffff;
-  background-color: #4d5ae5;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  font-size: 16px;
-  line-height: 24px;
-  cursor: pointer;
-}
-.button-primary:hover,
-.button-primary:focus {
-  background-color: #404bbf;
-}
-
 .button.secondary {
   font-family: "Roboto", sans-serif;
   color: #4d5ae5;
