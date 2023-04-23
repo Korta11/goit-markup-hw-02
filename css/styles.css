@@ -102,7 +102,7 @@ ul {
   color: #f4f4fd;
 }
 /* BUTTON */
-.hero .button.primary {
+.button-primary {
   font-family: "Roboto", sans-serif;
   color: #ffffff;
   background-color: #4d5ae5;
@@ -113,10 +113,8 @@ ul {
   line-height: 24px;
   cursor: pointer;
 }
-.hero .button.primary:hover {
-  background-color: #404bbf;
-}
-.hero .button.primary:focus {
+.button-primary:hover,
+.button-primary:focus {
   background-color: #404bbf;
 }
 
