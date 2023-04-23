@@ -92,10 +92,10 @@ ul {
   background-color: #4d5ae5;
 }
 
-.btn-primary:hover,.btn-primary:focus{
+.button:hover,.button:focus{
+  color: #ffffff;
   background-color: #404bbf;
 }
-
 /* Our Team */
 .our-team {
   background-color: #f4f4fd;
@@ -125,11 +125,7 @@ ul {
   color: #4d5ae5;
   background-color: #f4f4fd;
 }
-.btn-secondary:hover,
-.btn-secondary:focus {
-  color: #ffffff;
-  background-color: #404bbf;
-}
+
 
 /* TEXT */
 .skills-title {
