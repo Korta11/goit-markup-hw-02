@@ -92,8 +92,7 @@ ul {
   background-color: #4d5ae5;
 }
 
-.btn-primary:hover,
-:focus {
+.btn-primary:hover,:focus {
   background-color: #404bbf;
 }
 /* Our Team */
