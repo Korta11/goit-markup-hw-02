@@ -86,15 +86,7 @@ ul {
   letter-spacing: 0.02em;
   line-height: 1.07;
 }
-.button {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  font-size: 16px;
-  line-height: 24px;
-  cursor: pointer;
-}
+
 .btn-primary {
   color: #ffffff;
   background-color: #4d5ae5;
@@ -119,10 +111,8 @@ ul {
   color: #f4f4fd;
 }
 /* BUTTON */
-.button.secondary {
+.button {
   font-family: "Roboto", sans-serif;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -130,11 +120,13 @@ ul {
   line-height: 24px;
   cursor: pointer;
 }
-.button.secondary:hover {
-  color: #ffffff;
-  background-color: #404bbf;
+
+.btn-secondary {
+  color: #4d5ae5;
+  background-color: #f4f4fd;
 }
-.button.secondary:focus {
+.btn-secondary:hover,
+.btn-secondary:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
