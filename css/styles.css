@@ -92,7 +92,8 @@ ul {
   background-color: #4d5ae5;
 }
 
-.btn-primary:hover {
+.hero .btn-primary:hover,
+.hero .btn-primary:focus {
   background-color: #404bbf;
 }
 
