@@ -93,7 +93,7 @@ ul {
 }
 
 .btn-primary:hover,
-.btn-primary:focus {
+:focus {
   background-color: #404bbf;
 }
 /* Our Team */
