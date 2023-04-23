@@ -87,13 +87,12 @@ ul {
   line-height: 1.07;
 }
 
-.btn-primary {
+.button.btn-primary {
   color: #ffffff;
   background-color: #4d5ae5;
 }
 
-.hero .btn-primary:hover,
-.hero .btn-primary:focus {
+.btn-primary:hover,.btn-primary:focus{
   background-color: #404bbf;
 }
 
@@ -120,14 +119,12 @@ ul {
   font-size: 16px;
   line-height: 24px;
   cursor: pointer;
-}
-
-.btn-secondary {
   color: #4d5ae5;
   background-color: #f4f4fd;
 }
-.btn-secondary:hover,
-.btn-secondary:focus {
+
+.butto:hover,
+.button:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
