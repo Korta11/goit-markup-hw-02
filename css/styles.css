@@ -95,7 +95,7 @@ ul {
 .button.btn-primary:hover{
   background-color: #404BBF;
 }
-.button.btn-primary:focus{
+.button:focus{
   background-color: #404BBF;
 }
 
