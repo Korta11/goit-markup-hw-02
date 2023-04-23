@@ -92,9 +92,13 @@ ul {
   background-color: #4d5ae5;
 }
 
-.button.btn-primary:focus,.btn-primary:hover{
-  background-color: #404bbf;
+.button.btn-primary:hover{
+  background-color: #404BBF;
 }
+.button.btn-primary:focus{
+  background-color: #404BBF;
+}
+
 /* Our Team */
 .our-team {
   background-color: #f4f4fd;
