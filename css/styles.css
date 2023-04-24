@@ -27,7 +27,7 @@ ul {
 }
 .logo.link,
 .logo-studio {
-  font-family: "Raleway";
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -87,7 +87,7 @@ ul {
 }
 
 .btn-primary {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -118,7 +118,7 @@ ul {
 }
 /* BUTTON */
 .btn-secondary {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
