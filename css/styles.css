@@ -7,7 +7,6 @@
 }
 body {
   background-color: #ffffff;
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   color: var(--primary-text-color);
   text-decoration: none;
@@ -28,7 +27,7 @@ ul {
 }
 .logo.link,
 .logo-studio {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -88,11 +87,18 @@ ul {
 }
 
 .btn-primary {
+  font-family: "Roboto";
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
   color: #ffffff;
   background-color: #4d5ae5;
 }
 
-.button:hover,.button:focus{
+.btn-primary:hover,.btn-primary:focus{
   color: #ffffff;
   background-color: #404bbf;
 }
@@ -111,22 +117,21 @@ ul {
   color: #f4f4fd;
 }
 /* BUTTON */
-.button {
-  font-family: "Roboto", sans-serif;
+.btn-secondary {
+  font-family: "Roboto";
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   font-size: 16px;
   line-height: 24px;
   cursor: pointer;
-}
-
-.btn-secondary {
   color: #4d5ae5;
   background-color: #f4f4fd;
 }
-
-
+.btn-secondary:hover,.btn-secondary:focus{
+  color: #ffffff;
+  background-color: #404bbf;
+}
 /* TEXT */
 .skills-title {
   color: var(--title-text-color);
