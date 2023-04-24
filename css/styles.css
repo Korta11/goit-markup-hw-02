@@ -34,6 +34,9 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.address-list{
+  font-style: normal;
+}
 /* Site nav */
 .site-nav .link {
   color: var(--accent-site-color);
